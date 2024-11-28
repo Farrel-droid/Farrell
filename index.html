@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Company Profile</title>
+    <!-- ini adalah link untuk menghubungkan css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        .hero-section {
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+
+        .services-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">IT Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="article.html">Article</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+            </header>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Innovative IT Solutions</h1>
+            <p>Empowering businesses with cutting-edge technology solutions</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="download.webp" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">CV. Difo Lestari <br>IT Consultant & Web Development</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Established in 2010, we started as ERP consulting company providing support and
+                training. Our wide-knowledge and experiences in application communication has shaped our specialty in
+                ERP interfacing. Weigh bridge, barcode scanner, RFID reader or any device sensor value easily connect to
+                ERP, either with middleware or direct to ERP screen.</p>
+        </div>
+
+
+        <!-- Services -->
+        <section id="services" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-4">Our Services</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="bi bi-laptop services-icon"></i>
+                        <h4 class="mt-3">Software Development</h4>
+                        <p>Custom solutions tailored to your business needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="bi bi-cloud services-icon"></i>
+                        <h4 class="mt-3">Cloud Services</h4>
+                        <p>Secure and scalable cloud infrastructure.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="bi bi-shield-lock services-icon"></i>
+                        <h4 class="mt-3">Cybersecurity</h4>
+                        <p>Protecting your business from cyber threats.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-4">Our Portfolio</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/300" alt="Project 1" class="img-fluid rounded mb-3">
+                        <h5>Project 1</h5>
+                        <p>Cloud migration project for a leading enterprise.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/300" alt="Project 2" class="img-fluid rounded mb-3">
+                        <h5>Project 2</h5>
+                        <p>Custom software solution for e-commerce.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/300" alt="Project 3" class="img-fluid rounded mb-3">
+                        <h5>Project 3</h5>
+                        <p>Advanced cybersecurity implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container text-center my-5">
+            <img class="img-fluid mb-3" src="download.webp" alt="CV. Difo Lestari" style="max-height: 72px;">
+            <h3>CV. Difo Lestari</h3>
+            <p>IT Consultant &amp; Web Development</p>
+            <p>Desc EN</p>
+        </div>
+        <footer class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 mb-4">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy
+                                    Policy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms and
+                                    Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Footer -->
+                    <footer class="py-3 bg-dark text-white text-center">
+                        <p>&copy; 2024 IT Solutions. All Rights Reserved.</p>
+                    </footer>
+
+                    <!-- ini adalah link untuk menghubungkan js -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
